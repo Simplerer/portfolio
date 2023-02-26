@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.head {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.head ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.head span {
+    font-size: 120%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.head a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.head a:hover {
+    color:aqua;
+}
