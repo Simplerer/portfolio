@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import './App.css'
 
-const { Projects, About, Contact } = pages
+const { Projects, About, Contact, Welcome } = pages
 
 function App() {
   return (
@@ -23,6 +23,10 @@ function App() {
           <Route
             path='/about'
             element={<About />}
+          />
+          <Route
+            path='*'
+            element={<Welcome />}
           />
         </Routes>
         <Footer />
