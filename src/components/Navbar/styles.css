@@ -1,6 +1,6 @@
 .head {
-    background-color: black;
-    color: aliceblue;
+    background-color: #2F3E46;
+    color: #CAD2C5;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,5 +27,5 @@
 }
 
 .head a:hover {
-    color:aqua;
+    color:#52796F;
 }

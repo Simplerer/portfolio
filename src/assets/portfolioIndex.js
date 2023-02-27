@@ -5,7 +5,7 @@ const projects = [
       filename: 'Duet.png',
       link: "https://frozen-garden-71099.herokuapp.com/",
       github: "https://github.com/Simplerer/duet",
-      description: "An application using musical preference to match users looking for either friendship or something more. Duet uses Deezer's API to provide song snippets for users to listen as they peruse over other's profiles, seeing what kind or personality they have. This was a group effort and we used GraphQl, JWT tokens for authorisation, MongoDB, and bootstrap to create a beautiful functioning matching site."
+      description: "An application using musical preference to match users looking for either friendship or something more. Duet uses Deezer's API to provide song snippets for users to listen as they peruse over other's profiles, seeing what kind or personality they have. This was a group effort and we used GraphQl, JWT tokens for authorisation, MongoDB, and bootstrap to create a beautiful functioning matching site. Click the image to visit the site!"
     },
     {
       id: 2,
@@ -13,7 +13,7 @@ const projects = [
       filename: 'BookSearch.png',
       link: "https://radiant-spire-43837.herokuapp.com/",
       github: "https://github.com/Simplerer/book-search-engine",
-      description: "This application runs on the Google Book API and allows users to create a library of favorite book searches to refer to. Built with React, this site runs through a GraphQL API via Apollo and uses MongoDB for data handling."
+      description: "This application runs on the Google Book API and allows users to create a library of favorite book searches to refer to. Built with React, this site runs through a GraphQL API via Apollo and uses MongoDB for data handling. Click the image to visit the site!"
     },
     {
       id: 3,
@@ -21,7 +21,7 @@ const projects = [
       filename: 'YaHeard.png',
       link: "https://fathomless-woodland-16696.herokuapp.com/",
       github: "https://github.com/Simplerer/ya-heard",
-      description: "A collaborative project created to provide a space for locals to share recommendations of goods and services in a blog environment. The idea was to only allow the sharing of locally owned and operated businesses. This application uses openstreetmap's API, handlebars for templating, and session for handling user login and activity."
+      description: "A collaborative project created to provide a space for locals to share recommendations of goods and services in a blog environment. The idea was to only allow the sharing of locally owned and operated businesses. This application uses openstreetmap's API, handlebars for templating, and session for handling user login and activity. Click the image to visit the site!"
     },
     {
       id: 4,
@@ -29,7 +29,7 @@ const projects = [
       filename: 'Tech-E-ish.png',
       link: "https://limitless-forest-03421.herokuapp.com/",
       github: "https://github.com/Simplerer/tech-blog-mvc",
-      description: "An MVC I created using handlebars to offer a blogging space where users could post and comment on each others posts for open communication. I handled users with express session and the database with Sequelize. I used mellow color scheme with my own CSS to present a relaxed feel for the user."
+      description: "An MVC I created using handlebars to offer a blogging space where users could post and comment on each others posts for open communication. I handled users with express session and the database with Sequelize. I used mellow color scheme with my own CSS to present a relaxed feel for the user. Click the image to visit the site!"
     },
     {
       id: 5,
@@ -37,7 +37,7 @@ const projects = [
       filename: 'weather-board.png',
       link: "https://simplerer.github.io/weather-board/",
       github: "https://github.com/Simplerer/weather-board",
-      description: "Using bootstrap for design and the Open Weather API, a user can find real time weather and forecast for their area using this application."
+      description: "Using bootstrap for design and the Open Weather API, a user can find real time weather and forecast for their area using this application. Click the image to visit the site!"
     },
     {
       id: 6,
@@ -53,7 +53,7 @@ const projects = [
       filename: 'Quiz-Kid.png',
       link: "https://simplerer.github.io/code-quiz-kid/",
       github: "https://github.com/Simplerer/code-quiz-kid",
-      description: "A simple quiz created to test a beginner's knowledge of Javascript in a fun timed way. Scores are posted and you can retake as many times as you would like. This was built with basic Javascript and CSS."
+      description: "A simple quiz created to test a beginner's knowledge of Javascript in a fun timed way. Scores are posted and you can retake as many times as you would like. This was built with basic Javascript and CSS. Click the image to visit the site!"
     },
     {
       id: 8,
