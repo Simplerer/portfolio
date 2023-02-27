@@ -25,7 +25,7 @@ function App() {
             element={<About />}
           />
           <Route
-            path='*'
+            path='/*'
             element={<Welcome />}
           />
         </Routes>

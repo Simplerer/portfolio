@@ -145,6 +145,11 @@ article img {
         text-align: center;
     }
 
+    article img {
+        margin: auto;
+        max-width: 100%;
+    }
+
     #welcome {
         margin: auto;
         /* display: flex;
@@ -168,6 +173,7 @@ article img {
 
     article img {
         margin: auto;
+        max-width: 100%;
     }
     
     .projects {
