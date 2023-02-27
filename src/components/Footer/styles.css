@@ -1,8 +1,28 @@
-* {
-    box-sizing: border-box;
+
+.foot {
+    margin-top: auto;    
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
 }
 
-body {
+.foot ul {
+    padding: 0;
     margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
 }
 
+.foot a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.foot a:hover {
+    color:aqua;
+}

@@ -1,3 +1,4 @@
+import './styles.css'
 export default function Footer() {
   return (
     <footer className="foot">
@@ -11,6 +12,7 @@ export default function Footer() {
             <i className="fa fa-github fa-3x p2 m-2" aria-hidden="true"></i></a>
         </li>
       </ul>
+      <p>©2023 Scott Stone</p>
     </footer>
   )
 };

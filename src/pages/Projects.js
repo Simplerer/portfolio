@@ -6,13 +6,13 @@ export default function Home() {
     <main>
       {projects.map(project => (
         <React.Fragment key={project.id}>
-          <section>
-            <img src={`${process.env.PUBLIC_URL}/images/${project.filename}`} alt="project images" />
-            <div>
-              <h2>{project.title}</h2>
+          <section className='projects'>
+            <a href={project.link} target={"_blank"} rel="noreferrer">
+              <img src={`${process.env.PUBLIC_URL}/images/${project.filename}`} alt="project images" /></a>
+            <div className='info'>
+              <h2><a href={project.github} target={"_blank"} rel="noreferrer">
+                {project.title}</a></h2>
               <p>{project.description}</p>
-              <a href={project.github} target={"_blank"} rel="noreferrer">GitHub Link</a>
-              <a href={project.link} target={"_blank"} rel="noreferrer">Active Link</a>
             </div>
           </section>
           <hr></hr>

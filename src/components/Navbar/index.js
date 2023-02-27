@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
       <div className="head">
         <h1>
-          <a href="https://www.linkedin.com/in/scott-stone-392156231/" target='_blank'><span>S</span>cott Stone</a>
+          <a href="https://www.linkedin.com/in/scott-stone-392156231/" target={"_blank"}><span>S</span>cott Stone</a>
         </h1>
         <ul>
           <li>
