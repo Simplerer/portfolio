@@ -1,8 +1,8 @@
-import Home from './Home';
+import Projects from './Projects';
 import Contact from './Contact';
 import About from './About';
 
 
-const pages = { Home, About, Contact}
+const pages = { Projects, About, Contact}
 
 export default pages;

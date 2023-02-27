@@ -3,7 +3,7 @@ import pages from './pages/index'
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 
-const { Home, About, Contact } = pages
+const { Projects, About, Contact } = pages
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
     <Routes>
       <Route 
         path='/'
-        element={<Home/>}
+        element={<Projects/>}
         />
       <Route 
         path='/contact' 

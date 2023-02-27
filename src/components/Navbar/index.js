@@ -11,7 +11,7 @@ export default function Navbar() {
         </h1>
         <ul>
           <li>
-            <NavLink to='/'>Home</NavLink>
+            <NavLink to='/'>Projects</NavLink>
           </li>
           <li>
             <NavLink to='/about'>About</NavLink>
