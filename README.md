@@ -12,6 +12,10 @@
   ## Link
   
   [Live Page](https://simplerer.github.io/portfolio/)
+
+  ## Image
+
+  ![Projects Look](./src/assets/images/Screenshot_20230228_102001.png)
     
   ## Questions
   If you need any more information on using this application, my email is simplererstone@gmail.com.
